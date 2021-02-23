@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        </title>
+        <style>
+            html{
+                box-sizing: border-box;
+                height:100%;
+            }
+            body{
+                margin:0;
+                padding:0;
+                background-color: brown;
+            }
+            #particles-js{
+                width: 100%;
+                height: 100%;
+                position: fixed;
+                background-color: #000;
+                background-image: url('');
+                background-size: cover;
+                background-position: 50% 50%;
+                 background-repeat: no-repeat;
+                }
+                .particles{
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                 right: 0;
+                z-index:-1;
+                }
+            .container{
+                margin-top: 0;
+                margin-bottom:0;
+                margin-right: auto;
+                margin-left:auto;
+                max-width:80%;
+                padding: 0;
+            }
+            .pics1{
+                padding-top: 40px;
+                display:grid;
+                grid-template-columns: repeat(4, 1fr);
+               grid-template-rows: repeat(6, 20vw);
+               grid-gap: 5px;
+            }
+            .pics2{
+                padding-top: 40px;
+                display:grid;
+                grid-template-columns: repeat(4, 1fr);
+               grid-template-rows: repeat(4, 20vw);
+               grid-gap: 5px;
+            }
+            .gallery__img {
+              width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+}
+            .heading{
+                font-weight: 400;
+                font-size:200px;
+                color: white;
+                text-align: center;
+                text-shadow: 3px 3px 3px red;
+            }
+            h1{
+              font-weight: 200;
+              font-size: 50px;
+              color: white;
+              text-align: center;
+            }
+            .birthday{
+              width:40vw;
+            
+              border:4px solid white;
+              padding:6px
+            }
+            .gallery__img{
+              border: 3px solid white;
+              padding:2px;
+              border-radius: 3px;
+            }
+            .section{
+              display:flex;
+              justify-content: center;
+            }
+            .fadein {
+animation: fadeIn ease 10s;
+-webkit-animation: fadeIn ease 10s;
+-moz-animation: fadeIn ease 10s;
+-o-animation: fadeIn ease 10s;
+-ms-animation: fadeIn ease 10s;
+}
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+@keyframes slideInLeft {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
+      .come{
+         animation: 1s ease-out 0s 1 slideInLeft;
+      }
+
+        </style>
+    </head>
+<body>
+  <embed src="Memories Mp3 By and Maroon 5.mp3" loop="true" autostart="true" width="2" height="0">
+    <div class="container">  
+        <div class="heading"> Memories</div>
+        <div class="pics1 ">
+            <figure class="gallery__item " style="grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 2;">
+                <img src="11.jpeg" class="gallery__img" alt="Image 1">
+              </figure>
+              <figure class="gallery__item " style="grid-column-start: 1;
+              grid-column-end: 3;
+              grid-row-start: 1;
+              grid-row-end: 3;">
+                <img src="2.jpeg" class="gallery__img" alt="Image 1">
+              </figure>
+              <figure class="gallery__item" style="grid-column-start: 3;
+              grid-column-end: 5;
+              grid-row-start: 2;
+              grid-row-end: 3;">
+                <img src="45.jpeg" class="gallery__img" alt="Image 1">
+              </figure>
+              <figure class="gallery__item gallery__item--1">
+                <img src="5.jpeg" class="gallery__img" alt="Image 1">
+              </figure>
+              <figure class="gallery__item gallery__item--1">
+                <img src="22.jpeg" class="gallery__img" alt="Image 1">
+              </figure>
+              <figure class="gallery__item gallery__item--1">
+                <img src="37.jpeg" class="gallery__img" alt="Image 1">
+              </figure>
+              <figure class="gallery__item" style="grid-column-start: 2;
+              grid-column-end: 4;
+              grid-row-start:3;
+              grid-row-end: 5;">
+                <img src="7.jpeg" class="gallery__img" alt="Image 1">
+              </figure>
+              <figure class="gallery__item gallery__item--1">
+                <img src="21.jpeg" class="gallery__img" alt="Image 1">
+              </figure>
+              <figure class="gallery__item gallery__item--1">
+                <img src="18.jpeg" class="gallery__img" alt="Image 1">
+              </figure>
+              <figure class="gallery__item gallery__item--1">
+                <img src="23.jpeg" class="gallery__img" alt="Image 1">
+              </figure>
+              <figure class="gallery__item gallery__item--1">
+                <img src="35.jpeg" class="gallery__img" alt="Image 1">
+              </figure>
+              <figure class="gallery__item " style="grid-column-start: 3;
+              grid-column-end: 5;
+              grid-row-start: 5;
+              grid-row-end: 7;">
+                <img src="40.jpeg" class="gallery__img" alt="Image 1">
+              </figure>
+              <figure class="gallery__item " style="grid-column-start: 1;
+              grid-column-end: 3;
+              grid-row-start: 6;
+              grid-row-end: 7;">
+                <img src="42.jpeg" class="gallery__img" alt="Image 1">
+              </figure>
+        </div>
+        <h1>Thank you for all the memories we have. Without you the world would have been colourless to me.</h1>
+        <p style="color: white;">With passing years things changed completely
+          From meeting each other daily to yearly get togethers
+          From sharing laughter ,tears ,joy , happiness ,sadness nd  tiffins😂 to cherishing memories
+          From letters to video calls😜
+          From momos lover to being fond of chai😄😅
+          From chasing each other in kho kho to chasing our dreams 
+          Our life happened
+          But our bond is still as sweet , adorable and strong as it was 13 years back and I still love u alot❤️❤️ and miss you🥺😽💕u continue to hold the  same precious  place in my heart💖  
+          Happy Birthday my love🍰🎉♥️ <span style="color: white; float: right;">---------Devanshi</span></p>
+          <p style="color: white;">Describing our bond is impossible in words , it is an emotion which could only be felt❤️❤️🥰🥰. You are the best thing that had ever happened to me.😘😘😘 I'm glad that inspite of so many ups and downs , we continue to share same bond which started 13 years ago moreover it became more stronger as before.11th and 12th would have been unbearable without you 🥺 i miss those days when our endless talks were enough to spend whole day and bear boring classes😂 I just wish you get everything you desire for and enjoy every happiness of life, keep smiling my dear.I love you sooo much❤️❤️🥰🥰🥰<span style="color: white; float: right;">-----------Saumya</span></p>
+          <h2 style="color: white; margin-top: 70px;">When you flashes your hair it's increase the diopter of your beauty.</h2><h2 style="color: white;" >When the beauty of heaven terminates,your begins</h2>
+          <div class="pics2">
+            <figure class="gallery__item " style="grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 3;">
+                <img src="10.jpeg" class="gallery__img" alt="Image 1">
+              </figure>
+              <figure class="gallery__item gallery__item--1">
+                <img src="12.jpeg" class="gallery__img" alt="Image 1">
+              </figure>
+              <figure class="gallery__item" style="grid-column-start: 3;
+              grid-column-end: 5;
+              grid-row-start: 3;
+              grid-row-end: 5;">
+                <img src="39.jpeg" class="gallery__img" alt="Image 1">
+              </figure>
+              <figure class="gallery__item gallery__item--1">
+                <img src="16.jpeg" class="gallery__img" alt="Image 1">
+              </figure>
+              <figure class="gallery__item gallery__item--1">
+                <img src="38.jpeg" class="gallery__img" alt="Image 1">
+              </figure>
+              <figure class="gallery__item gallery__item--1">
+                <img src="15.jpeg" class="gallery__img" alt="Image 1">
+              </figure>
+              <figure class="gallery__item gallery__item--1">
+                <img src="14.jpeg" class="gallery__img" alt="Image 1">
+              </figure>
+              <figure class="gallery__item gallery__item--1">
+                <img src="6.jpeg" class="gallery__img" alt="Image 1">
+              </figure>
+              <figure class="gallery__item" style="grid-column-start: 1;
+              grid-column-end: 3;
+              grid-row-start: 4;
+              grid-row-end: 5;">
+                <img src="51.jpeg" class="gallery__img" alt="Image 1">
+              </figure>
+        </div>
+        <section>
+          <h1>Let your all the dreams to be on fire and light your birthday candles with that. Have a gorgeous birthday.</h1>
+          <div class="section"><img class="birthday" src="47.jpeg"></div>
+        </section>
+    </div>
+    <div class="particles" id="particles-js"></div>
+<script type="text/javascript" src="particles.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script>
+ var scroll = window.requestAnimationFrame ||
+            function(callback){ window.setTimeout(callback, 1000/60)};
+
+            var elementsToShow1 = document.querySelectorAll('.pics1');
+            var elementsToShow2 = document.querySelectorAll('.pics2');
+            function loop() {
+
+elementsToShow1.forEach(function (element) {
+  if (isElementInViewport(element)) {
+    element.classList.add('fadein');
+  } else {
+    element.classList.remove('fadein');
+  }
+});
+elementsToShow2.forEach(function (element) {
+  if (isElementInViewport(element)) {
+    element.classList.add('come');
+  } else {
+    element.classList.remove('come');
+  }
+});
+
+
+scroll(loop);
+}
+loop();
+function isElementInViewport(el) {
+  // special bonus for those using jQuery
+  if (typeof jQuery === "function" && el instanceof jQuery) {
+    el = el[0];
+  }
+  var rect = el.getBoundingClientRect();
+  return (
+    (rect.top <= 0
+      && rect.bottom >= 0)
+    ||
+    (rect.bottom >= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.top <= (window.innerHeight || document.documentElement.clientHeight))
+    ||
+    (rect.top >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
+  );
+}
+    </script>
+</body>
+</html>
